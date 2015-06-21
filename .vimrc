@@ -21,6 +21,8 @@
  NeoBundle 'tpope/vim-endwise'
  NeoBundle 'scrooloose/nerdtree'
  NeoBundle 'fatih/vim-go'
+ NeoBundle 'slim-template/vim-slim.git'
+ NeoBundle 'elixir-lang/vim-elixir'
 
  " My Bundles here:
  " Refer to |:NeoBundle-examples|.

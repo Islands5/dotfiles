@@ -21,7 +21,7 @@ SAVEHIST=1000000
 # 1行表示
 # PROMPT="%~ %# "
 # 2行表示
-PROMPT="%{${fg[red]}%}[%n@%m]%{${reset_color}%} %~
+PROMPT="%{${fg[red]}%}[%n@]%{${reset_color}%} %~
 %# "
  
  
@@ -153,3 +153,5 @@ export PATH="$(brew --prefix)/bin:$PATH"
 
 export PATH=$HOME/.rbenv/bin:$PATH
 eval "$(rbenv init - zsh)"
+
+export PATH=$PATH:/usr/local/go/bin
