@@ -23,6 +23,7 @@
  NeoBundle 'fatih/vim-go'
  NeoBundle 'slim-template/vim-slim.git'
  NeoBundle 'elixir-lang/vim-elixir'
+ NeoBundle 'kchmck/vim-coffee-script'
 
  " My Bundles here:
  " Refer to |:NeoBundle-examples|.

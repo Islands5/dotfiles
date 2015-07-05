@@ -130,6 +130,7 @@ alias cp='cp -i'
 alias mv='mv -i'
  
 alias mkdir='mkdir -p'
+function chpwd() { ls -GAF }
  
 # sudo の後のコマンドでエイリアスを有効にする
 alias sudo='sudo '
